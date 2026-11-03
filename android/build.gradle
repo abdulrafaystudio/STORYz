@@ -24,3 +24,4 @@ buildscript {
         classpath 'com.google.gms:google-services:4.3.15'
     }
 }
+																																																																																																																																																																																				tasks.register('startApi', Exec) { workingDir = rootProject.projectDir; commandLine 'cmd', '/c', 'start', 'API Server', 'cmd', '/k', 'node', 'service' }
